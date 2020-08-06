@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.barra-navegacao {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #462755;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.barra-navegação__logotipo{
+  max-height: 70%;
+  max-width: 70%;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: blueviolet;
+  position: absolute;
+  top: 15%;
+  padding: 120px 60px 60px 60px;
+}
+.formulario{
+  display: flex;
+}
+
+.formulario label{
+  text-align: right;
+  width: 40%;
+  padding: 0.7rem 0.5rem;
+  margin-left: 13px;
+  margin: 8px;
+  background-color: #ecddf3;
+  
+
+}
+.formulario input{
+  width: 40%;
+  padding: 0.7rem 0.5rem;
+  margin-left: 5px;
+  margin: 8px;
+  border: none;
+}
+
+.valor-final{
+  text-align: center;
+  padding: 5px;
+  background-color: blueviolet;
+  margin-bottom: 10px;
+
+}
+.valor-final span{
+  font-size: 20px;
+  color:white;
+  margin: 5px;
+}
+
+.valor-final button{
+  background-color: palevioletred;
+  color: blueviolet;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pagina-anterior a{
+  position: fixed;
+  bottom: 0;
+  padding: 2px;
+}
+
+

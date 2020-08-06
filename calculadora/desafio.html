@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+  <body>
+  
+    <nav class="barra-navegacao">
+      <img
+        class="barra-navegacao__logotipo"
+        src="img/logotipo-reprograma.png"
+      />
+    </nav>
+    <div class="caixa">
+      <div class="formulario">
+        <label for="valor-hora">Valor Hora</label>
+        <input type="number" id="valor-hora" />
+      </div>
+
+      <div class="formulario">
+        <label for="horas-projeto">Horas Projeto</label>
+        <input type="number" id="horas-projeto" />
+      </div>
+
+      <div class="valor-final">
+        <span id="resposta">Valor do Projeto</span>
+        <button onclick="calcular()">Calcular</button>
+      </div>
+
+    </div>
+
+    <div class="pagina-anterior">
+    <a href="index.html">Voltar</a>
+    </div>
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
