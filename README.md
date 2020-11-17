@@ -1,4 +1,4 @@
-# workshop-reprograma
+# Workshop Reprograma
 Calculadora Desenvolvida com HTML, CSS e JavaScript .
 
 #### Sobre o Evento:
